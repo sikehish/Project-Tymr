@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    border-top: 4px solid yellow;
+    border-bottom: none;
+}
+
+#navbar{
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 2rem;
+    padding: 1rem;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:2px;
+    margin-left: 2vw;
+
+}
+
+#logo img{
+    width: 40px;
+    height: auto;
+}
+
+#logo h3{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 10px;
+    text-shadow: 5px 5px #dbd2d2;
+}
+
+#navmenu{
+    list-style: none;
+    display: flex;
+    background-color:white;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+    margin-right: 2vw;
+    border-radius: 10px;
+    width:30vw;
+}
+
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+div a, section a{
+    font-family: 'Convergence', sans-serif;
+    font-weight: bolder;
+}
+
+.menuitem{
+    padding: 1rem;
+    color: black;
+    font-family: 'Tauri', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: black;
+    color:yellow
+}
+
+
+.introtext .underline{
+    text-decoration: underline white dotted 4px;
+}
+
+#whyuse .underline{
+    text-decoration: underline black solid 4px;
+}
+
+/* main web page */
+
+#intro{
+    border: 4px solid yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+    color: white;
+    background: black;
+    text-align: center;
+    padding: 5rem;
+    margin: 2rem;
+}
+
+#intro a,#aboutbtn{
+    display: block;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    /* width: 100%; */
+    text-decoration: none;
+}
+
+#intro a:hover{
+    background-color:yellow;
+    color: black;
+    border-radius: 100px;
+}
+
+.introtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.introtext>span{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+#intro h1{
+    padding: 10px;
+    margin: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: xx-large;
+}
+
+.introtext h1 span.underline{
+    color: yellow;
+    font-size: 2.5rem;
+}
+
+.introtext>span{
+    padding-top: 13px;
+    margin-top: 3px;
+    font-size: larger;
+    font-weight: 200;
+}
+
+#intro button{
+    padding: 0;
+    
+}
+
+/* #introimg img{
+    
+} */
+
+/*Why use*/
+
+#whyuse{
+    border-right: 4px solid yellowgreen ;
+    border-left: 4px solid yellowgreen ;
+    margin: 2rem;
+    padding: 3rem;
+    
+    /* border: 2px solid blue; */
+    display:grid;
+    grid-template-areas: "e e e"
+                        "a . b"
+                        "c . d";
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-rows: 1fr 3fr 3fr;
+    grid-row-gap: 30px;
+}
+
+.whyusetext{
+    /* border: 2px solid black;    */
+    padding: 30px;
+    /* margin: 1rem; */
+    border: 2px solid black;
+    box-shadow: 5px 10px rgb(99, 105, 99);
+    text-align: center;
+}
+
+.whyusetext{
+    margin: 0 auto;
+}
+
+.s1{
+    grid-area: a;
+}
+
+.s2{
+    grid-area: b;
+
+}
+
+.s3{
+    grid-area: c;
+}
+
+.s4{
+    grid-area: d;
+}
+
+.whyuseh1{
+    grid-area: e;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    font-size: 2rem;
+}
+
+/*About us*/
+
+
+#aboutus{
+    border: 4px solid yellow;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+#aboutus h1{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#aboutus p{
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    padding: 1rem 10rem;
+    font-size: 1.1rem;
+    line-height:2;
+}
+
+#aboutus h3{
+    padding: 1rem;
+    color: rgb(226, 226, 24);
+}
+
+#aboutbtn{
+    padding: 5px 50px;
+    border-radius: 5px;
+}
+
+#aboutbtn:hover{
+    background-color:yellow;
+    color: black;
+    border-radius: 100px;
+}
+
+/*CUSTOMERS*/
+
+#customers{
+    border-right: 4px solid yellowgreen ;
+    border-left: 4px solid yellowgreen ;
+    text-align: center;
+    margin: 2rem;
+    /* border: 2px solid red; */
+}
+
+.customerlogo{
+    /* border: 2px solid blue; */
+    height: auto;
+    width: 8rem;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+#customers div{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+#customers a{
+    display: inline-block;
+    padding: 5px 50px;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    margin: 10px;
+}
+
+#customersignup:hover{
+        background-color:yellow;
+        color: black;
+        border-radius: 100px;
+}
+
+#customerlogin:hover{
+    background-color:yellow;
+        color: black;
+        border-radius: 100px;
+}
+
+/*FOOTER*/
+
+footer{
+    border: 4px solid yellow;
+    border-bottom: none;
+    color: white;
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+#social{
+    /* margin: 1rem; */
+    text-align: center;
+}
+
+#social img{
+    margin: 1rem;
+    text-align: center;
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+}
+
+.madewith{
+    display: block;
+    text-align: center;
+}
+
+.madewith a{
+    color: white;
+}
+
+
+
